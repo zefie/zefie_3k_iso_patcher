@@ -1,4 +1,4 @@
-# zefie_3k_iso_patcker
+# zefie_3k_iso_patcher
 
 How to use:
 
