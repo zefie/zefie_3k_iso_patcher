@@ -5,10 +5,11 @@ How to use:
 1. Create a raw, encrypted ISO dump
   * Via GameOS: multiMAN (via Direct Disc Access and Video column)
   * Via OtherOS: dd if=/dev/sr0 of=path/to/file.iso bs=2048
+  * Via PC with BD Reader: Dump with ImgBurn
   
-2. Run [DumpKey - zefie edition](https://github.com/zefie/getkey_gameos_zefie) (Requires creating your own [3Dump.bin](http://forum.redump.org/post/61023/#p61023))
-3. Transfer raw ISO + disc.key to a folder together
-4. Run this program in that folder
+2. Insert disc into PS3, run [DumpKey - zefie edition](https://github.com/zefie/getkey_gameos_zefie) (Requires creating your own [3Dump.bin](http://forum.redump.org/post/61023/#p61023))
+3. Place the ISO and /dev_usb000/disc.key (created by DumpKey - zefie edition) into to a folder together (can be also be renamed to the same name as the file, eg dump.iso dump.key)
+4. Run this program, with the first argument pointing to the ISO. (eg: ./zefie_3k_iso_patcher files/dump.iso)
 5. Open 3k3y Tools v1.3.xx
 6. Choose (from the menu bar) "Tools > ISO > Extract ISO"
 7. Point to ISO, make a temp folder to extract the files to, choose a save path for your IRD
