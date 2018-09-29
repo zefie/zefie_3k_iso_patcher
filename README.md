@@ -20,3 +20,4 @@ Notes:
 
 1. "Create IRD" button is broken in 3k3y which is why we do it this way.
 2. If compiling on windows, use cygwin or msys, not visual studio
+3. If 3k3y Tools is throwing an error regarding "Not a valid PS3 Disc", be sure your file extension is lowercase (eg ".iso" and NOT ".ISO")
