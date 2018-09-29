@@ -21,3 +21,4 @@ Notes:
 1. "Create IRD" button is broken in 3k3y which is why we do it this way.
 2. If compiling on windows, use cygwin or msys, not visual studio
 3. If 3k3y Tools is throwing an error regarding "Not a valid PS3 Disc", be sure your file extension is lowercase (eg ".iso" and NOT ".ISO")
+4. Getting "403 Upload Failed" is normal when creating an IRD, due to 3k3y server no longer existing. You can go to "Tools > Settings", and uncheck "Automatically upload IRD files after ripping".
